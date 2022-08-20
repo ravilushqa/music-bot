@@ -10,7 +10,7 @@ test-coverage:
 	go test -race -coverprofile=coverage.txt -covermode=atomic ./...
 
 helm-install:
-	helm install boilerplate chart/ --values chart/values.yaml
+	helm install music-bot chart/ --values chart/values.yaml
 
 protoc:
 	protoc --go_out=. --go_opt=paths=source_relative \

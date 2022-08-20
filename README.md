@@ -1,3 +1,2 @@
-# boilerplate
+# music-bot
 
-For using boilerplate, click use this template button.

@@ -1,18 +1,18 @@
-# Default values for boilerplate.
+# Default values for music-bot.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
 
 image:
-  repository: ravilushqa/boilerplate
+  repository: ravilushqa/music-bot
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
 imagePullSecrets: []
-nameOverride: "boilerplate"
-fullnameOverride: "boilerplate"
+nameOverride: "music-bot"
+fullnameOverride: "music-bot"
 
 serviceAccount:
   # Specifies whether a service account should be created

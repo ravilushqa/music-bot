@@ -10,7 +10,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/ravilushqa/boilerplate/api"
+	"github.com/ravilushqa/music-bot/api"
 )
 
 const (

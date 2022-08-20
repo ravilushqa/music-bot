@@ -12,10 +12,10 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ravilushqa/boilerplate/internal/app/grpc"
-	"github.com/ravilushqa/boilerplate/internal/app/http"
-	httpprovider "github.com/ravilushqa/boilerplate/providers/http"
-	loggerprovider "github.com/ravilushqa/boilerplate/providers/logger"
+	"github.com/ravilushqa/music-bot/internal/app/grpc"
+	"github.com/ravilushqa/music-bot/internal/app/http"
+	httpprovider "github.com/ravilushqa/music-bot/providers/http"
+	loggerprovider "github.com/ravilushqa/music-bot/providers/logger"
 )
 
 func main() {

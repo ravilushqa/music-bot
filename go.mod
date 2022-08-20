@@ -1,4 +1,4 @@
-module github.com/ravilushqa/boilerplate
+module github.com/ravilushqa/music-bot
 
 go 1.19
 
